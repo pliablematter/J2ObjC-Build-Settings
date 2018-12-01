@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "J2ObjC-Pod"
+  s.name         = "J2ObjC-Config"
   s.version      = "1.0"
   s.license      = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.summary      = "Podspec for using Google's J2ObjC Objective-C Translator and Runtime in a Cocoapods project."
