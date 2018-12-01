@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
                     Configures an XCode project to use Google's J2ObjC Objective-C Translator and Runtime.
                     J2ObjC must be downloaded and installed separately and moved to /usr/local/bin/j2objc
                    DESC
-  s.homepage     = "https://github.com/pliablematter/J2ObjC-pod"
+  s.homepage     = "https://github.com/pliablematter/J2ObjC-Config"
   s.author       = "Pliable Matter LLC"
-  s.source       = { :git => "https://github.com/pliablematter/J2ObjC-pod.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/pliablematter/J2ObjC-Config.git", :tag => "v#{s.version}" }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '12.1'
