@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # Top level attributes can't be specified by subspecs.
   s.header_mappings_dir = 'dist/include'
   s.prepare_command = <<-CMD
-    download_distribution.sh #{s.version}
+    download.sh #{s.version}
   CMD
   
   s.subspec 'lib' do |lib|
