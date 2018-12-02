@@ -14,12 +14,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/pliablematter/J2ObjC-Build-Settings.git", :tag => "v#{s.version}" }
 
   s.requires_arc = false
-  
-  s.subspec 'j2objc' do |j2objc|
-    j2objc.xcconfig = { \
+
+  s.xcconfig = { \
       'OTHER_LDFLAGS' => '-ljre_emul', \
       'LIBRARY_SEARCH_PATHS' => '"/usr/local/bin/j2objc/lib"', \
       'HEADER_SEARCH_PATHS' => '"/usr/local/bin/j2objc/include"', \
       'FRAMEWORK_SEARCH_PATHS' => '"/usr/local/bin/j2objc/frameworks"' }
-  end
+  end  
 end
