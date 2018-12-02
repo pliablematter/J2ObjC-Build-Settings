@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   s.author       = "Pliable Matter LLC"
   s.source       = { :git => "https://github.com/pliablematter/J2ObjC-Build-Settings.git", :tag => "v#{s.version}" }
 
+  s.platform     = :ios, "8.0"
+
   s.requires_arc = false
 
   s.xcconfig = { \
