@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform        = :ios, "8.0"
   s.requires_arc    = false
   s.preserve_paths  = ['']
-  s.xcconfig =      = <<-CONFIG
+  s.xcconfig        = <<-CONFIG
                         {
                           'OTHER_LDFLAGS' => '-ljre_emul -liconv',
                           'LIBRARY_SEARCH_PATHS' => '"/usr/local/bin/j2objc/lib"',
