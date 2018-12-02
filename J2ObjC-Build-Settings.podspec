@@ -20,5 +20,4 @@ Pod::Spec.new do |s|
       'LIBRARY_SEARCH_PATHS' => '"/usr/local/bin/j2objc/lib"', \
       'HEADER_SEARCH_PATHS' => '"/usr/local/bin/j2objc/include"', \
       'FRAMEWORK_SEARCH_PATHS' => '"/usr/local/bin/j2objc/frameworks"' }
-  end  
 end
