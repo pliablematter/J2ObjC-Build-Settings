@@ -12,11 +12,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/pliablematter/J2ObjC-Build-Settings"
   s.author       = "Pliable Matter LLC"
   s.source       = { :git => "https://github.com/pliablematter/J2ObjC-Build-Settings.git", :tag => "v#{s.version}" }
-
   s.platform     = :ios, "8.0"
-
   s.requires_arc = false
-
+  s.preserve_paths = ['']
   s.xcconfig = { \
       'OTHER_LDFLAGS' => '-ljre_emul', \
       'LIBRARY_SEARCH_PATHS' => '"/usr/local/bin/j2objc/lib"', \
