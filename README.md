@@ -1,2 +1,2 @@
-# J2ObjC-pod
-Podspec for using J2ObjC in a Cocoapods project
+# J2ObjC-Build-Settings
+Configures J2ObjC Build Settings in a Cocoapods project
