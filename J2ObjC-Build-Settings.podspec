@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.requires_arc = false
   s.preserve_paths = ['']
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-ljre_emul', 'LIBRARY_SEARCH_PATHS' => '"/usr/local/bin/j2objc/lib"', 'USER_HEADER_SEARCH_PATHS' => '"/usr/local/bin/j2objc/include"', 'FRAMEWORK_SEARCH_PATHS' => '"/usr/local/bin/j2objc/frameworks"', 'J2OBJC_HOME' => '"/usr/local/bin/j2objc"' }
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-ljre_emul -liconv', 'LIBRARY_SEARCH_PATHS' => '"/usr/local/bin/j2objc/lib"', 'USER_HEADER_SEARCH_PATHS' => '"/usr/local/bin/j2objc/include"', 'FRAMEWORK_SEARCH_PATHS' => '"/usr/local/bin/j2objc/frameworks"', 'J2OBJC_HOME' => '"/usr/local/bin/j2objc"' }
 end
