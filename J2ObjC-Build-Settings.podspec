@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
       'OTHER_LDFLAGS' => '-ljre_emul', \
       'LIBRARY_SEARCH_PATHS' => '"/usr/local/bin/j2objc/lib"', \
       'USER_HEADER_SEARCH_PATHS' => '"/usr/local/bin/j2objc/include"', \
-      'FRAMEWORK_SEARCH_PATHS' => '"/usr/local/bin/j2objc/frameworks"' }
+      'FRAMEWORK_SEARCH_PATHS' => '"/usr/local/bin/j2objc/frameworks"', \ 
+      'J2OBJC_HOME' => '"/usr/local/bin/j2objc"' }
 end
