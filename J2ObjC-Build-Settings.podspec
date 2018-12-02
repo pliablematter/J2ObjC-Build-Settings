@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.xcconfig = { \
       'OTHER_LDFLAGS' => '-ljre_emul', \
       'LIBRARY_SEARCH_PATHS' => '"/usr/local/bin/j2objc/lib"', \
-      'HEADER_SEARCH_PATHS' => '"/usr/local/bin/j2objc/include"', \
+      'USER_HEADER_SEARCH_PATHS' => '"/usr/local/bin/j2objc/include"', \
       'FRAMEWORK_SEARCH_PATHS' => '"/usr/local/bin/j2objc/frameworks"' }
 end
